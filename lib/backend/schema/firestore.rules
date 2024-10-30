@@ -1,0 +1,68 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{document} {
+      allow create: if true;
+      allow read: if request.auth != null;
+      allow write: if true;
+      allow delete: if false;
+    }
+
+    match /bags/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /bags/{parent}/mensbagsdetails/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /{path=**}/mensbagsdetails/{document} {
+      allow read: if true;
+    }
+
+
+    match /bags/{parent}/womensbagsdetails/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /{path=**}/womensbagsdetails/{document} {
+      allow read: if true;
+    }
+
+
+    match /bags/{parent}/kidsbagsdetails/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /{path=**}/kidsbagsdetails/{document} {
+      allow read: if true;
+    }
+
+
+    match /electronics/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /furnitures/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+  }
+}
