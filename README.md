@@ -1,39 +1,30 @@
 # QR-Based-Product-Delivery-App
 
-This is a QR based product delivery application made with flutterflow
+This is a QR-based product delivery application made with Flutterflow
 
-where user can create account with personal information like phone number, email which will be live store in firebase, so that user can login with correct information,
+where the user can create an account with personal information like phone number, email which will be live stored in Firebase so that the user can log in with the correct information,
 
-user can purchase any items which will be stored in app state and user can see this item in cart option,
+user can purchase any items that will be stored in the app state and the user can see selected items in the cart option,
 
-user can edit profile anytime which will be live updated in firebase backend,
+user can edit their profile anytime which will be live updated in the Firebase backend,
 
-user can select different payment method and also can check, delete the cart items,
+user can select different payment methods and also can check, delete the cart items,
 
-user can live track the product delivery update,
+user can track the product (live) delivery update,
 
-user can receive the product only when use correct QR code of the product
+user can receive the product only when using the correct QR code of the product
 
 #Here are some images of this application
 
-![IMG-20241030-WA0008](https://github.com/user-attachments/assets/71b0cd86-3ced-43a1-b3b4-29f3fc5011b3)
 
-![IMG-20241030-WA0009](https://github.com/user-attachments/assets/ce8569d0-20eb-4780-8ef6-2975ca5fce52)
-
-![IMG-20241030-WA0002](https://github.com/user-attachments/assets/1dd303ca-6ba7-4f30-8974-f233de2ac975)
-
-![IMG-20241030-WA0003](https://github.com/user-attachments/assets/26216eec-0470-4a8d-a6fb-7806f1e60c78)
-
-![IMG-20241030-WA0005](https://github.com/user-attachments/assets/bedb4437-f4a3-4b13-9849-a28e3c86409c)
-
-![IMG-20241030-WA0007](https://github.com/user-attachments/assets/d85ecf90-c1f9-4b43-b69a-5eab0f39fe51)
-
-![IMG-20241030-WA0004](https://github.com/user-attachments/assets/7e7072b3-20ba-4ff4-bef6-a6bd181039be)
-
-![IMG-20241030-WA0006](https://github.com/user-attachments/assets/f26fdce1-c7ac-4ca2-bf05-8bcf0a30d89b)
-
-![IMG-20241030-WA0010](https://github.com/user-attachments/assets/d3d60a03-b08c-470f-9505-2559026bfbe2)
-
-![IMG-20241030-WA0012](https://github.com/user-attachments/assets/5a129fad-fce5-4a94-ab41-a66ba6851681)
-
-![IMG-20241030-WA0011](https://github.com/user-attachments/assets/1f98b004-e7bf-45f1-9dec-40c32c890cac)
+![IMG-1](https://github.com/user-attachments/assets/b1984d9c-e7d7-4d74-815d-76c80b3f42cc)
+![IMG-2](https://github.com/user-attachments/assets/eeffb0fd-0770-4a4a-a159-9f3e4289d5b7)
+![IMG-3](https://github.com/user-attachments/assets/bfa54075-12d3-4bd2-bd59-4da319179c48)
+![IMG-4](https://github.com/user-attachments/assets/88e0a226-0801-4bb6-ac38-62ad2493f008)
+![IMG-5](https://github.com/user-attachments/assets/66023b85-441c-4b0f-ad09-fcabc47f1ed4)
+![IMG-6](https://github.com/user-attachments/assets/78c40edd-cd1f-4693-8dae-3d8fd73ac2f2)
+![IMG-7](https://github.com/user-attachments/assets/231e03d6-5e46-4544-adce-55e012718d43)
+![IMG-8](https://github.com/user-attachments/assets/95f0bae1-05fd-4116-8d17-07eb05dadb27)
+![IMG-9](https://github.com/user-attachments/assets/7b5d0539-92d1-4fad-b1b1-1b52f57f39fb)
+![IMG-10](https://github.com/user-attachments/assets/01dca3f5-9007-4995-92ea-e4329d3b1376)
+![IMG-11](https://github.com/user-attachments/assets/087cdc51-05d0-456e-bbeb-c00c936134dd)
